@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px) {
+
+    .clearfix::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    
+    .header {
+        width: 250px;
+    }
+
+    .right {
+        width: 100px;
+        float: left;
+    }
+
+    .left {
+        width: 150px;
+        float: left;
+    }
+
+    .footer {
+        width: 250px;
+    
+    }
+
+
+}

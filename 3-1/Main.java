@@ -1,8 +1,11 @@
 /**
  * バブルソート
  * チェックテスト-Java３章
+ * 
  *
  */
+
+
 public class Main{
     public static void main(String[] args){
         /*
@@ -19,7 +22,7 @@ public class Main{
         }
         System.out.println();
          for (int i = 0; i < data.length; i++){
-              for (int j = data.length; j > i; j--){
+              for (int j = data.length - 1; j > i; j--){
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
@@ -31,10 +34,8 @@ public class Main{
                 }
             }
         }
-    }
-        for(int i = 0; i < data.length; i++){
+        for (int i = 0; i < data.length; i++){
             System.out.print(data[i] + " ");
         }
-}
-}
+    }
 }

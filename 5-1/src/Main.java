@@ -19,7 +19,7 @@ public class Main {
 //		   現状は全てのクラスの継承元であるObject型を指定しているので、Stringもintも格納可能になっています。
 	       List<Object> array = new ArrayList<>();
 //	    <以下記述>
-	       TreeSet<Integer> array1 = new TreeSet<>();
+	      
 //      問② 前から二つ目の要素を"bar"にしましょう。
 //	　<以下記述>
 	       array.add("smth");

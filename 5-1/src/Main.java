@@ -1,13 +1,10 @@
-import java.lang.reflect.Array;
-import java.text.SimpleDateFormat;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeSet;
+
 
 public class Main {
 
@@ -58,16 +55,18 @@ public class Main {
 //      問⑦ 配列arrayDateに今の年・月・日を入れてください。
            Calendar cal = Calendar.getInstance();
 //	    <以下記述>
-           System.out.println(cal.get(Calendar.YEAR));
-           System.out.println(cal.get(Calendar.MONTH) + 1);
-           System.out.println(cal.get(Calendar.DATE));
            
           
          
 //      問⑧ 配列arrayDateをList型に変更しましょう。
 //	    <以下記述>
+           int[] arrayDate = {cal.get(Calendar.YEAR),cal.get(Calendar.MONTH) + 1,cal.get(Calendar.DATE)};
 //      問⑨ 上記で格納した要素を繰り返しで出力しましょう。
 //	    <以下記述>
+        
+           for(int i : arrayDate) {
+        	   System.out.println(i);
+           }
 		}
 	}
 	}
